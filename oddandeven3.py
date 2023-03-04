@@ -10,3 +10,9 @@ print("Number of even numbers:",even_count)
 print("Number of odd numbers:",odd_count)
 
 
+# output
+
+Number of even numbers: 4
+Number of odd numbers: 5
+
+
