@@ -4,5 +4,6 @@ reverse_name=name[::-1]
 print(reverse_name)
 
 # output
-# Enter the name:Edyoda
-# adoydE
+Enter the name:Edyoda
+
+adoydE
