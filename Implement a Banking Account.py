@@ -1,19 +1,24 @@
 # 4: Implement a Banking Account
 
-# class Account:
-#     def __init__(self, title, balance):
-#         self.title = title
-#         self.balance = balance
+class Account:
+    def __init__(self, title, balance):
+        self.title = title
+        self.balance = balance
 
-# class SavingsAccount(Account):
-#     def __init__(self, title, balance, interestRate):
-#         super().__init__(title, balance)
-#         self.interestRate = interestRate
+class SavingsAccount(Account):
+    def __init__(self, title, balance, interestRate):
+        super().__init__(title, balance)
+        self.interestRate = interestRate
 
-# account1 = SavingsAccount("Ashish", 5000, 5)
-# print(account1.title)  
-# print(account1.balance)  
-# print(account1.interestRate)  
+account1 = SavingsAccount("Ashish", 5000, 5)
+print(account1.title)  
+print(account1.balance)  
+print(account1.interestRate)  
+
+# output  # Ashish is the title and 5000 is the balance and 5 is the interestRate.
+Ashish
+5000
+5
 
 # 5: Handling a Bank Account
 
@@ -35,15 +40,20 @@ class SavingsAccount(Account):
     def interestAmount(self):
         return (self.balance * self.interestRate)/100
 
-acc1 = SavingsAccount("Ashish", 2000, 5)
-acc1.deposit(500)
-print(acc1.getBalance()) 
+demo1 = SavingsAccount("Ashish", 2000, 5)
+demo1.deposit(500)
+print(demo1.getBalance()) 
 
-acc1 = SavingsAccount("Ashish", 2000, 5)
-acc1.withdrawal(500)
-print(acc1.getBalance()) 
+demo1 = SavingsAccount("Ashish", 2000, 5)
+demo1.withdrawal(500)
+print(demo1.getBalance()) 
 
-acc1 = SavingsAccount("Ashish", 2000, 5)
-print(acc1.interestAmount()) 
+demo1 = SavingsAccount("Ashish", 2000, 5)
+print(demo1.interestAmount()) 
+
+# output
+2500
+1500
+100.0
 
 
