@@ -12,6 +12,9 @@ p = Point(1, 3, 5)
 result = p.sqSum()
 print(result) 
 
+# output
+35
+
 
 # 2 Implement a Calculator Class
 
@@ -32,7 +35,14 @@ obj = Calculator(10, 94)
 print(obj.add())       
 print(obj.subtract())  
 print(obj.multiply())  
-print(obj.divide())    
+print(obj.divide())  
+
+# output
+
+104
+84
+940
+9.4
 
 
 # 3. Implement the Complete Student Class
@@ -58,3 +68,7 @@ name = student.getName()
 rollNumber = student.getRollNumber()
 print("Name:", name)
 print("Roll Number:", rollNumber)
+
+# output
+Name: John Doe
+Roll Number: 12345
