@@ -51,7 +51,8 @@ print(demo1.getBalance())
 demo1 = SavingsAccount("Ashish", 2000, 5)
 print(demo1.interestAmount()) 
 
-# output
+# output 
+
 2500
 1500
 100.0
