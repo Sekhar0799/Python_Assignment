@@ -57,3 +57,18 @@ restaurant.display_menu()
 restaurant.place_order({"001": 2, "003": 3, "005": 1})
 restaurant.place_order({"001": 1, "002": 2, "003": 1})
 restaurant.display_orders()
+
+# Output 
+Menu:
+Code  Name                   Quantity   Price
+001     Burger                  10      5.99
+002     Pizza                    5      9.99
+003     Fries                   20      2.99
+004     Hot Dog                  8      3.99
+005     Soda                    30      1.99
+Order placed successfully. Total: 22.94
+Order placed successfully. Total: 28.96
+
+Orders:
+Items: {'001': 2, '003': 3, '005': 1}  Total: 22.94
+Items: {'001': 1, '002': 2, '003': 1}  Total: 28.96
