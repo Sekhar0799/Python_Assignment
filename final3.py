@@ -59,3 +59,16 @@ menu.view_menu()
 menu.remove_food_item(2)
 
 menu.view_menu()
+
+#output
+# Menu
+ID: 1, Name: Tandoori Chicken, Quantity: 4 pieces, Price: 240, Discount: 0, Stock: 50
+ID: 2, Name: Vegan Burger, Quantity: 1 piece, Price: 320, Discount: 10, Stock: 20
+ID: 3, Name: Truffle Cake, Quantity: 500gm, Price: 900, Discount: 5, Stock: 10
+# Editing food item       
+ID: 1, Name: Tandoori Chicken, Quantity: 4 pieces, Price: 260, Discount: 0, Stock: 60
+ID: 2, Name: Vegan Burger, Quantity: 1 piece, Price: 320, Discount: 10, Stock: 20
+ID: 3, Name: Truffle Cake, Quantity: 500gm, Price: 900, Discount: 5, Stock: 10
+# Removing food item
+ID: 1, Name: Tandoori Chicken, Quantity: 4 pieces, Price: 260, Discount: 0, Stock: 60
+ID: 3, Name: Truffle Cake, Quantity: 500gm, Price: 900, Discount: 5, Stock: 10
