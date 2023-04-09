@@ -64,3 +64,10 @@ restaurant.place_order(user, [2, 3])
 restaurant.view_order_history(user)
 
 restaurant.update_profile(user, "Sekhar Reddy", "0987654321", "chandrasekhar@com", "456 Second St, Othertown, INDIA", "newpassword456")
+
+# output 
+1. Tandoori Chicken (4 pieces) [INR 240]
+2. Vegan Burger (1 Piece) [INR 320]
+3. Truffle Cake (500gm) [INR 900]
+Order History:
+1. Sekhar Reddy: Vegan Burger (1 Piece) [INR 320], Truffle Cake (500gm) [INR 900]
