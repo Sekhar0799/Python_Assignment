@@ -50,3 +50,15 @@ bulldog.description()
 bulldog.get_info() 
 bulldog.snore() 
 bulldog.chew() 
+
+# Output
+Fido is 5 years old.
+Fido's coat color is brown.
+Jack is 3 years old.
+Jack's coat color is white.
+Jack is fetching the ball!
+Jack is digging a hole!
+Spike is 4 years old.
+Spike's coat color is gray.
+Spike is snoring loudly!
+Spike is chewing on a bone!
