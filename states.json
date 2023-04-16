@@ -12,3 +12,12 @@ indian_states = {
 
 with open('indian_states.json', 'w') as f:
     json.dump(indian_states, f)
+
+
+import json
+
+with open('indian_states.json') as f:
+    data = json.load(f)
+
+for state, capital in data.items():
+    print(f"The capital of {state} is {capital}.")
