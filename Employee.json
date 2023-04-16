@@ -1,0 +1,39 @@
+{
+    "employees information": [
+        {
+            "name": "Sekhar Reddy",
+            "dob": "2000-01-01",
+            "height": 175,
+            "city": "Kurnool",
+            "state": "Andhera Pradesh"
+        },
+        {
+            "name": "Ramani",
+            "dob": "1999-05-12",
+            "height": 160,
+            "city": "Kadapa",
+            "state": "Andhera Pradesh"
+        },
+        {
+            "name": "Vijay",
+            "dob": "1995-09-23",
+            "height": 182,
+            "city": "Chittor",
+            "state": "Andhera Pradesh"
+        },
+        {
+            "name": "Shaik Waseem",
+            "dob": "1992-03-08",
+            "height": 168,
+            "city": "Delhi",
+            "state": "New Delhi"
+        },
+        {
+            "name": "David ",
+            "dob": "1998-11-15",
+            "height": 177,
+            "city": "ECIL",
+            "state": "TS"
+        }
+    ]
+}
