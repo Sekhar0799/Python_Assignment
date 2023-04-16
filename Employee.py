@@ -1,3 +1,5 @@
+# PROBLEM 1
+
 import json
 
 class Employee:
@@ -12,7 +14,7 @@ class Employee:
         return f"{self.name} ({self.dob}) from {self.city}, {self.state}. Height: {self.height} cm."
 
 
-with open('C:\Users/sekha\OneDrive\Documents\Python Scripts\Edyoda\Employee.json') as f:
+with open('C:\Users/sekha\OneDrive\Documents\Python Scripts\Edyoda\Employee.json', 'r') as f:
     data = json.load(f)
 
 employee_list = []
@@ -22,3 +24,20 @@ for emp in data['employees']:
 
 for emp in employee_list:
     print(emp)
+
+# PROBLEM 2
+
+import json
+
+indian_states = {
+    "Andhra Pradesh": "Amaravati",
+    "Bihar": "Patna",
+    "Gujarat": "Gandhinagar",
+    "Karnataka": "Bengaluru",
+    "Maharashtra": "Mumbai",
+    "Tamil Nadu": "Chennai",
+    "Uttar Pradesh": "Lucknow"
+}
+
+with open('indian_states.json', 'w') as f:
+    json.dump(indian_states, f)
